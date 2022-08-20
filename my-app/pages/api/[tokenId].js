@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-  const tokenId = req.query.tonkenId;
+  const tokenId = req.query.tokenId;
 
   const image_url ='https://raw.githubusercontent.com/WiFo26/crypto-devs-nft/main/my-app/public/cryptodevs/'
 
