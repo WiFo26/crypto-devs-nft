@@ -2,7 +2,7 @@ import { Contract, ethers, utils } from 'ethers';
 import Web3Modal from 'web3modal';
 import Head from 'next/head'
 import { useEffect, useRef, useState } from 'react'
-import { abi, NFT_CONTRACT_ADDRESS } from './constants';
+import { abi, NFT_CONTRACT_ADDRESS } from '../constants';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
